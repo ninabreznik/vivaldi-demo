@@ -56,7 +56,7 @@ async function handler (req, res) {
       const reqestor_geohash = body
       const distance = GeoHash.get_geohash_dist(reqestor_geohash, geohash)
       const sim_latency =  distance * 2 / 200000 * 1000
-      // console.log({sim_latency}, {reqestor_geohash}, {geohash})
+      console.log({sim_latency}, {reqestor_geohash}, {geohash})
       req.on('end', () => {
           setTimeout(async() => {
             const response = { x, y, h, _error }
@@ -162,7 +162,7 @@ async function measure () {
         })
       }
     })
-  }, 10000)
+  }, 30000)
 }
 // ------------------------- GET DATA -------------------------------
 function get_network_map (db) {
