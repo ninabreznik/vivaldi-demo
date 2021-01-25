@@ -1,5 +1,16 @@
 # vivaldi demo app
 
+```bash
+clone https://github.com/ninabreznik/vivaldi-demo.git
+
+cd vivaldi-demo
+
+npm install
+
+npm start 1 9000
+```
+
+
 `get-nodes.js`
 
 - creates demo nodes with default vivaldi locations and random geohash
