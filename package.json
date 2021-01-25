@@ -1,0 +1,22 @@
+{
+  "private": true,
+  "name": "example",
+  "version": "0.0.0",
+  "description": "scenario-simulator demo",
+  "dependencies": {
+    "geohash-distance": "^1.0.2",
+    "geohash-plus": "0.0.1",
+    "hyperbee": "^1.3.0",
+    "hypercore": "^9.7.0",
+    "network-map": "0.0.1",
+    "ngeohash": "^0.6.3",
+    "node-fetch": "^2.6.1",
+    "random-access-memory": "^3.1.2",
+    "random-geohash": "^1.0.1",
+    "scenario-simulator": "0.0.13",
+    "vivaldi-coordinates": "^1.0.0"
+  },
+  "scripts": {
+    "start": "simulate"
+  }
+}
